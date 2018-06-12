@@ -12,6 +12,7 @@
             </div>
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
+<<<<<<< HEAD
                     @if (Auth::check())
                         <li>{!! link_to_route('users.index', 'Users') !!}</li>
                         <li class="dropdown">
@@ -26,6 +27,10 @@
                         <li>{!! link_to_route('signup.get', 'Signup') !!}</li>
                         <li>{!! link_to_route('login', 'Login') !!}</li>
                     @endif
+=======
+                    <li>{!! link_to_route('signup.get', 'Signup') !!}</li>
+                    <li><a href="#">Login</a></li>
+>>>>>>> parent of ac1fb82... user login
                 </ul>
             </div>
         </div>
